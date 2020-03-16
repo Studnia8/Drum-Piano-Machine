@@ -203,6 +203,7 @@ class MyDrumApp extends React.Component{
       this.setState({
         displayValue: name 
       });
+      setTimeout(() => this.clearDispl(), 1500);
     }
   }
   onoffCon(){
@@ -232,7 +233,8 @@ class MyDrumApp extends React.Component{
           currentDrumBox: drum,
           displayValue: "Drum Kit",
           currentDrumBoxID: "Drum Kit"
-        })
+        });
+        setTimeout(() => this.clearDispl(), 1500);
     }
   }
   clearDispl(){
