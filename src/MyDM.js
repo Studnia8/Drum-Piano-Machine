@@ -261,6 +261,7 @@ class MyDrumApp extends React.Component{
       });
     }
     return(
+      <div>
       <div id="drum-machine" className="inner-container">
         <DrumBox 
         onoff={this.state.onoff}
@@ -294,6 +295,8 @@ class MyDrumApp extends React.Component{
 					  </div>
 				  </div>
         </div>
+      </div>
+      <div className="madeby">Made by <a className="madeLink" title="Go to Github!" target="_blank" rel="noopener noreferrer" href="https://github.com/Studnia8">Studnia8</a></div>
       </div>
     )
   }

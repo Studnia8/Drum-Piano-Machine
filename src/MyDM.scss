@@ -1,5 +1,6 @@
 $padWidth: 100px;
 $padHeight: 80px;
+$madebyfontsize:20px;
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 body {
@@ -99,10 +100,26 @@ body {
   cursor: pointer;
 }
 
+.madeby{
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+	font-size: $madebyfontsize;
+}
+
+.madeLink{
+	text-decoration: none;
+	color: black;
+	font-size: $madebyfontsize;
+}
+
 @media screen and (max-width: 650px) {
   .inner-container {
     transform: scale(0.7);
   }
+  .madeby, .madeLink{
+		font-size: $madebyfontsize/1.5;
+	}
 }
 
 $track-color: orange !default;
