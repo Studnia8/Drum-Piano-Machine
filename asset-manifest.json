@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/drum-piano-machine/static/css/main.f4e9c327.chunk.css",
+    "main.js": "/drum-piano-machine/static/js/main.4a2917a4.chunk.js",
+    "main.js.map": "/drum-piano-machine/static/js/main.4a2917a4.chunk.js.map",
+    "runtime-main.js": "/drum-piano-machine/static/js/runtime-main.da1c186d.js",
+    "runtime-main.js.map": "/drum-piano-machine/static/js/runtime-main.da1c186d.js.map",
+    "static/js/2.bf52df6b.chunk.js": "/drum-piano-machine/static/js/2.bf52df6b.chunk.js",
+    "static/js/2.bf52df6b.chunk.js.map": "/drum-piano-machine/static/js/2.bf52df6b.chunk.js.map",
+    "index.html": "/drum-piano-machine/index.html",
+    "precache-manifest.a2eb938ce27dd081786b6db69ce8843d.js": "/drum-piano-machine/precache-manifest.a2eb938ce27dd081786b6db69ce8843d.js",
+    "service-worker.js": "/drum-piano-machine/service-worker.js",
+    "static/css/main.f4e9c327.chunk.css.map": "/drum-piano-machine/static/css/main.f4e9c327.chunk.css.map",
+    "static/js/2.bf52df6b.chunk.js.LICENSE.txt": "/drum-piano-machine/static/js/2.bf52df6b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da1c186d.js",
+    "static/js/2.bf52df6b.chunk.js",
+    "static/css/main.f4e9c327.chunk.css",
+    "static/js/main.4a2917a4.chunk.js"
+  ]
+}
